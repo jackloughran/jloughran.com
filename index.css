@@ -1,0 +1,45 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #7d4627;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.take-up-the-entire-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #edd9c0;
+    font-size: 30px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    margin-right: 11px;
+    letter-spacing: -1px;
+}
+
+.github-icon {
+    margin-top: 8px;
+}
+
+.github-svg {
+    fill: #a8b6bf;
+    transition: all 0.3s ease;
+}
+
+a:hover .github-icon .github-svg {
+    fill: #edd9c0;
+    transition: all 0.3s ease;
+}
